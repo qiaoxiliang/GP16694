@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>abstractFactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="754.7163636363637" y="287.06545454545454">abstractFactory.CommonMouse</node>
+    <node x="254.0" y="0.0">abstractFactory.ComputerAccessoriesFactory</node>
+    <node x="432.0" y="99.0">abstractFactory.CommonComputerAccessoriesFactory</node>
+    <node x="249.0" y="292.0">abstractFactory.CommonKeyBoard</node>
+    <node x="333.4254545454545" y="427.01454545454544">abstractFactory.AbstractFactoryTest</node>
+    <node x="533.7163636363637" y="287.06545454545454">abstractFactory.LuxuryMouse</node>
+    <node x="0.0" y="292.0">abstractFactory.LuxuryKeyBoard</node>
+    <node x="0.0" y="99.0">abstractFactory.LuxuryComputerAccessoriesFactory</node>
+    <node x="162.5" y="193.0">abstractFactory.KeyBoard</node>
+    <node x="682.2163636363637" y="188.06545454545454">abstractFactory.Mouse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstractFactory.LuxuryKeyBoard" target="abstractFactory.KeyBoard">
+      <point x="0.0" y="-24.5" />
+      <point x="114.5" y="267.0" />
+      <point x="204.0" y="267.0" />
+      <point x="-41.5" y="24.5" />
+    </edge>
+    <edge source="abstractFactory.CommonComputerAccessoriesFactory" target="abstractFactory.ComputerAccessoriesFactory">
+      <point x="0.0" y="-24.5" />
+      <point x="651.0" y="74.0" />
+      <point x="515.75" y="74.0" />
+      <point x="87.25" y="24.5" />
+    </edge>
+    <edge source="abstractFactory.CommonMouse" target="abstractFactory.Mouse">
+      <point x="0.0" y="-24.5" />
+      <point x="868.2163636363637" y="262.06545454545454" />
+      <point x="785.7163636363637" y="262.06545454545454" />
+      <point x="34.5" y="24.5" />
+    </edge>
+    <edge source="abstractFactory.LuxuryComputerAccessoriesFactory" target="abstractFactory.ComputerAccessoriesFactory">
+      <point x="0.0" y="-24.5" />
+      <point x="206.0" y="74.0" />
+      <point x="341.25" y="74.0" />
+      <point x="-87.25" y="24.5" />
+    </edge>
+    <edge source="abstractFactory.LuxuryMouse" target="abstractFactory.Mouse">
+      <point x="0.0" y="-24.5" />
+      <point x="634.2163636363637" y="262.06545454545454" />
+      <point x="716.7163636363637" y="262.06545454545454" />
+      <point x="-34.5" y="24.5" />
+    </edge>
+    <edge source="abstractFactory.CommonKeyBoard" target="abstractFactory.KeyBoard">
+      <point x="0.0" y="-24.5" />
+      <point x="376.5" y="267.0" />
+      <point x="287.0" y="267.0" />
+      <point x="41.5" y="24.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8487654320987654" x="435.89454545454544" y="314.0" />
+  <SelectedNodes>
+    <node>abstractFactory.AbstractFactoryTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>simpleFactory.SimpleFactoryTest</OriginalElement>
+  <nodes>
+    <node x="268.6428571428571" y="276.0">simpleFactory.ShopFactory</node>
+    <node x="220.0" y="138.0">simpleFactory.NotOpenShop</node>
+    <node x="0.0" y="138.0">simpleFactory.WaterShop</node>
+    <node x="301.1428571428571" y="454.0">simpleFactory.SimpleFactoryTest</node>
+    <node x="345.8571428571429" y="0.0">simpleFactory.Shop</node>
+    <node x="451.0" y="138.0">simpleFactory.FoodShop</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="simpleFactory.NotOpenShop" target="simpleFactory.Shop">
+      <point x="0.0" y="-44.0" />
+      <point x="325.5" y="118.0" />
+      <point x="420.8571428571429" y="118.0" />
+      <point x="-25.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.FoodShop" target="simpleFactory.Shop">
+      <point x="0.0" y="-44.0" />
+      <point x="551.0" y="118.0" />
+      <point x="470.8571428571429" y="118.0" />
+      <point x="25.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.ShopFactory" target="simpleFactory.Shop">
+      <point x="126.75" y="-64.0" />
+      <point x="564.3928571428571" y="251.0" />
+      <point x="661.5" y="251.0" />
+      <point x="661.5" y="108.0" />
+      <point x="520.8571428571429" y="108.0" />
+      <point x="75.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.ShopFactory" target="simpleFactory.WaterShop">
+      <point x="-126.75" y="-64.0" />
+      <point x="310.8928571428571" y="251.0" />
+      <point x="100.0" y="251.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.WaterShop" target="simpleFactory.Shop">
+      <point x="0.0" y="-44.0" />
+      <point x="100.0" y="108.0" />
+      <point x="370.8571428571429" y="108.0" />
+      <point x="-75.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.ShopFactory" target="simpleFactory.FoodShop">
+      <point x="42.25" y="-64.0" />
+      <point x="479.8928571428571" y="251.0" />
+      <point x="551.0" y="251.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.ShopFactory" target="simpleFactory.NotOpenShop">
+      <point x="-42.25" y="-64.0" />
+      <point x="395.3928571428571" y="251.0" />
+      <point x="325.5" y="251.0" />
+      <point x="0.0" y="44.0" />
+    </edge>
+    <edge source="simpleFactory.SimpleFactoryTest" target="simpleFactory.ShopFactory">
+      <point x="0.0" y="-44.0" />
+      <point x="0.0" y="64.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="381.4999999999999" y="309.75" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>factoryMethod.Factory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="409.0">factoryMethod.FoodShop</node>
+    <node x="169.75" y="0.0">factoryMethod.Factory</node>
+    <node x="220.0" y="409.0">factoryMethod.WaterShop</node>
+    <node x="0.0" y="542.0">factoryMethod.FactoryMethodTest</node>
+    <node x="110.0" y="271.0">factoryMethod.Shop</node>
+    <node x="264.0" y="138.0">factoryMethod.WaterShopFactory</node>
+    <node x="0.0" y="138.0">factoryMethod.FoodShopFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factoryMethod.WaterShopFactory" target="factoryMethod.Factory">
+      <point x="0.0" y="-44.0" />
+      <point x="389.5" y="113.0" />
+      <point x="298.75" y="113.0" />
+      <point x="43.0" y="44.0" />
+    </edge>
+    <edge source="factoryMethod.WaterShop" target="factoryMethod.Shop">
+      <point x="0.0" y="-44.0" />
+      <point x="320.0" y="384.0" />
+      <point x="260.0" y="384.0" />
+      <point x="50.0" y="44.0" />
+    </edge>
+    <edge source="factoryMethod.FoodShopFactory" target="factoryMethod.Factory">
+      <point x="0.0" y="-44.0" />
+      <point x="122.0" y="113.0" />
+      <point x="212.75" y="113.0" />
+      <point x="-43.0" y="44.0" />
+    </edge>
+    <edge source="factoryMethod.FoodShop" target="factoryMethod.Shop">
+      <point x="0.0" y="-44.0" />
+      <point x="100.0" y="384.0" />
+      <point x="160.0" y="384.0" />
+      <point x="-50.0" y="44.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="258.0" y="315.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
